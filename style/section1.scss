@@ -1,0 +1,58 @@
+@import"./media-queries.scss";
+
+.section1{
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+    }
+    height: 40rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left{
+        @include tablet{
+            padding-left: 2rem;
+        }
+        padding-left: 4rem;
+
+        h1{
+            @include tablet{
+                font-size: 2rem;
+                padding-top: 6rem;
+                padding-bottom: 10px;
+            }
+            font-size: 3rem;
+            padding-bottom: 3rem;
+            background: #fff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ff00c9));
+            background: linear-gradient(to bottom, #fff 0%, #ff00c9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            @include tablet{
+                font-size: 1.1rem;
+                padding-right:1.3rem ;
+
+            }
+            font-size: 1.2rem;
+            justify-content: left;
+            
+            span{
+                color: rgb(183, 96, 169);
+            }
+        }
+    }
+    &-right{
+        @include tablet{
+            padding-top: 0;
+            padding-left: 3rem;
+            display: block;
+        }
+        padding-right: 1.5rem;
+        padding-top: 25rem;
+    }
+
+}

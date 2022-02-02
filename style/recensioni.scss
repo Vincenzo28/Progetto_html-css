@@ -1,0 +1,279 @@
+@import"./media-queries.scss";
+
+.recensioni{
+    height: 85rem;
+    color: white;
+    padding-top: 12rem;
+
+    &-title{
+        @include tablet{
+            font-size: 1.3rem;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    
+        
+        
+    
+    .recensioni-elenco{
+        @include tablet{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        display: flex;
+        flex-direction: row;
+        
+        
+        .recensioni-1{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 4rem;
+            margin-top: 6rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        }
+        .recensioni-2{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 8rem;
+            margin-top: 6rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        
+        }
+        .recensioni-3{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 5rem;
+            margin-top: 6rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        }
+    }
+        .recensioni-elenco2{
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        display: flex;
+        flex-direction: row;
+
+
+        .recensioni-4{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 4rem;
+            margin-top: 4rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        }
+        .recensioni-5{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 8rem;
+            margin-top: 4rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        }
+        .recensioni-6{
+            @include tablet{
+                margin-top: 4rem;
+                height: 8rem;
+                width: 70%;
+                margin-left: 5rem;
+            }
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 25%;
+            min-height: 500px;
+            margin-left: 5rem;
+            margin-top: 4rem;
+            background:url("./img-6.png") no-repeat;
+            
+
+
+            img{
+               padding-left: 40px;
+               padding-top: 30px;  
+               
+               
+               
+            }
+            h6{
+                padding-top: 20px;
+                font-size: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+            }
+            p{
+                padding-left: 40px;
+                padding-bottom: 30px;
+                padding-right: 40px;
+            }
+        }
+    }
+}

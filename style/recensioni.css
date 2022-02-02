@@ -1,0 +1,315 @@
+.recensioni {
+  height: 85rem;
+  color: white;
+  padding-top: 12rem;
+}
+
+.recensioni-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni-title {
+    font-size: 1.3rem;
+  }
+}
+
+.recensioni .recensioni-elenco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.recensioni .recensioni-elenco .recensioni-1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 4rem;
+  margin-top: 6rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco .recensioni-1 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco .recensioni-1 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco .recensioni-1 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco .recensioni-1 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+
+.recensioni .recensioni-elenco .recensioni-2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 8rem;
+  margin-top: 6rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco .recensioni-2 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco .recensioni-2 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco .recensioni-2 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco .recensioni-2 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+
+.recensioni .recensioni-elenco .recensioni-3 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 5rem;
+  margin-top: 6rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco .recensioni-3 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco .recensioni-3 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco .recensioni-3 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco .recensioni-3 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+
+.recensioni .recensioni-elenco2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.recensioni .recensioni-elenco2 .recensioni-4 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco2 .recensioni-4 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco2 .recensioni-4 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-4 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-4 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-5 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 8rem;
+  margin-top: 4rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco2 .recensioni-5 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco2 .recensioni-5 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-5 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-5 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-6 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+  width: 25%;
+  min-height: 500px;
+  margin-left: 5rem;
+  margin-top: 4rem;
+  background: url("./img-6.png") no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .recensioni .recensioni-elenco2 .recensioni-6 {
+    margin-top: 4rem;
+    height: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+  }
+}
+
+.recensioni .recensioni-elenco2 .recensioni-6 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-6 h6 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.recensioni .recensioni-elenco2 .recensioni-6 p {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+/*# sourceMappingURL=recensioni.css.map */

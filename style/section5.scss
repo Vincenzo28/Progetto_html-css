@@ -1,0 +1,286 @@
+@import"./media-queries.scss";
+
+#section5{
+    @include tablet{
+        height: 50rem;
+    }
+    color: white;
+    height: 65rem;
+    
+    
+    
+.section5-title{
+    @include tablet{
+        font-size: 1.1rem;       
+    }
+        display: flex;
+        justify-content: center;
+        color: rgb(51, 254, 216);
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .section5-subtitle{
+        @include tablet{
+            font-size: 1rem;
+        }
+        font-size: 1.2rem;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    #circleblu{
+        @include tablet{
+           display: none; 
+        }
+            height: 40%;
+            margin-top: 2rem;
+            margin-right: 10px;
+
+        }
+
+    #table{
+        @include tablet{
+            width: 95%;
+            height: 65%;
+            
+        }
+        display: flex;
+        justify-content: center;
+        background-color: rgba(241, 241, 241, 0.1);;
+        border-radius: 20px;
+        position: relative;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        -webkit-box-shadow: inset 0px 6.51px 2.51px 0px rgba(255, 255, 255, 0.4);
+        box-shadow: inset 0px 6.51px 26px 0px rgba(255, 255, 255, 0.4);
+        width: 90%;
+        height: 45%;
+        margin:0 auto;
+        font-family: inherit;
+        
+  }
+    #toptr{ 
+        @include tablet{
+            margin-left: 30px;
+        }
+
+        #firsttoptr{
+            padding-right: 2px;
+        }
+        #secondtoptr{
+            @include tablet{
+                padding-right: 5px;
+            }
+            padding-left: 13px;
+        }
+       
+        td{
+         @include tablet{
+            font-size: 20px;
+            
+        }
+            padding-top: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 37px;
+            
+        }
+    }
+    #firstleft-tr{
+
+        .lefttext{
+            @include tablet{
+                font-size: 15px;
+                padding-top: 0;
+                padding-right: 2.5rem;
+            }
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 1.6rem;
+            
+        }
+
+        td{
+            font-weight: bold;
+            text-align: center;
+           
+        }
+    }
+    #secondleft-tr{
+        
+
+        .lefttext{
+        @include tablet{
+            font-size: 15px;
+            padding-top: 0;
+            padding-right: 2.5rem;
+        }
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 1.6rem;
+            
+            
+        }
+
+        td{
+            font-weight: bold;
+            text-align: center;
+            
+        }
+    }
+    #thirdleft-tr{
+
+        .lefttext{
+            @include tablet{
+                font-size: 15px;
+                padding-top: 0;
+                padding-right: 2.5rem;
+            }
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 1.6rem;
+            
+            
+        }
+
+        td{
+            font-weight: bold;
+            text-align: center;
+            
+        }
+    }
+    #fourthleft-tr{
+
+        .lefttext{
+            @include tablet{
+                font-size: 15px;
+                padding-top: 0;
+                padding-right: 2.5rem;
+            }
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 1.6rem;
+            
+            
+        }
+
+        td{
+            font-weight: bold;
+            text-align: center;
+            
+        }
+    }
+        #fifthleft-tr{
+           
+            .lefttext{
+                @include tablet{
+                    font-size: 15px;
+                    padding-right: 2.5rem;
+                    padding-top: 0;
+                }
+                font-weight: bold;
+                font-size: 18px;
+                padding-top: 1.6rem;
+                
+                
+            }
+    
+            td{
+                font-weight: bold;
+                text-align: center;
+                
+            }
+        }
+    
+    #sixthleft-tr{
+       
+        td{
+            @include tablet{
+                font-size: 15px;
+            }
+            font-weight: bold;
+             text-align: center;
+             font-size: 18px;
+        }
+        #corsionlineprice{
+            color: #83cd29;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+        #universappprice{
+            color: #33FFD9;
+            padding-bottom: 10px;
+        }
+        #bootcampprice{
+            color: #ff8400;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        #linktable{
+            @include tablet{
+                display: none;
+        }
+        
+         padding-left: 2rem;
+         padding-bottom: 20px;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    
+    
+
+#imgtable{
+    @include tablet{
+        display: none;
+    }
+        display: flex;
+        height: 40%;
+        margin-top: 18rem;
+        margin-left: 2rem;
+        
+        
+        
+    }
+    
+
+    #linktablecolor{
+        color: white;
+        display: flex;
+        font-size: 17px;
+        border-radius: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 8px 16px;
+            background-image: linear-gradient(to right, #4003CA, rgb(114, 107, 214), rgb(107, 198, 214), #0321ca);
+            box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+            background-size: 300% 100%;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            border: white solid 0.5px ;
+            
+
+            
+    }
+       #linktablecolor:hover{
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+       }
+}

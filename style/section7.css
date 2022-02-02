@@ -1,0 +1,182 @@
+#section7 {
+  height: 70rem;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 {
+    padding-top: 4rem;
+    height: 65rem;
+  }
+}
+
+#section7 #section7-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table {
+    padding-left: 4rem;
+  }
+}
+
+#section7 #section7-table #section7-top .vantaggi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#section7 #section7-table #section7-top .vantaggi h3 {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-top .vantaggi h3 {
+    font-size: 18px;
+  }
+}
+
+#section7 #section7-table #section7-center {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  width: 700px;
+  border: 1px solid #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-center {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-bottom {
+    padding-top: 5rem;
+  }
+}
+
+#section7 #section7-table #section7-bottom h4 {
+  color: #33fed8;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-bottom h4 {
+    font-size: 1.8rem;
+  }
+}
+
+#section7 #section7-table #section7-bottom p {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-bottom p {
+    font-size: 1rem;
+  }
+}
+
+#section7 #section7-table #section7-bottom input {
+  margin-top: 24px;
+  width: 289px;
+  height: 37px;
+  display: block;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+#section7 #section7-table #section7-bottom #buttonbottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#section7 #section7-table #section7-bottom #buttonbottom img {
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-bottom #buttonbottom img {
+    display: none;
+  }
+}
+
+#section7 #section7-table #section7-bottom #buttonbottom #btn {
+  color: white;
+  display: flex;
+  font-size: 17px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 16px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4003CA), color-stop(#726bd6), color-stop(#6bc6d6), to(#0321ca));
+  background-image: linear-gradient(to right, #4003CA, #726bd6, #6bc6d6, #0321ca);
+  -webkit-box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+          box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  border: white solid 0.5px;
+  margin-top: 6rem;
+  margin-right: 23rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section7 #section7-table #section7-bottom #buttonbottom #btn {
+    margin-top: 2rem;
+    width: 28%;
+  }
+}
+
+#section7 #section7-table #section7-bottom #buttonbottom #btn:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+/*# sourceMappingURL=section7.css.map */

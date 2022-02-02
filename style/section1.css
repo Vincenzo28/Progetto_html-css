@@ -1,0 +1,85 @@
+.section1 {
+  height: 40rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.section1-left {
+  padding-left: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section1-left {
+    padding-left: 2rem;
+  }
+}
+
+.section1-left h1 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ff00c9));
+  background: linear-gradient(to bottom, #fff 0%, #ff00c9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .section1-left h1 {
+    font-size: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 10px;
+  }
+}
+
+.section1-left p {
+  font-size: 1.2rem;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+@media screen and (max-width: 768px) {
+  .section1-left p {
+    font-size: 1.1rem;
+    padding-right: 1.3rem;
+  }
+}
+
+.section1-left p span {
+  color: #b760a9;
+}
+
+.section1-right {
+  padding-right: 1.5rem;
+  padding-top: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section1-right {
+    padding-top: 0;
+    padding-left: 3rem;
+    display: block;
+  }
+}
+/*# sourceMappingURL=section1.css.map */

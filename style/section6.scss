@@ -1,0 +1,100 @@
+@import"./media-queries.scss";
+
+#section6{
+    @include tablet{
+        
+    }
+    height: 20rem;
+    color: white;
+    margin-bottom: 30rem;
+    
+    
+
+    #section6-title{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+
+        h1{
+            @include tablet{
+                font-size: 30px;
+            }
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+
+    #section6-table{
+        @include tablet{
+            height: 200%;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+        }
+
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+        background-color: rgba(241, 241, 241, 0.1);;
+        border-radius: 20px;
+        position: relative;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        -webkit-box-shadow: inset 0px 6.51px 2.51px 0px rgba(255, 255, 255, 0.4);
+        box-shadow: inset 0px 6.51px 26px 0px rgba(255, 255, 255, 0.4);
+        width: 80%;
+        height: 130%;
+        margin:0 auto;
+        text-align: left;
+        
+        #midimg{
+            @include tablet{
+                display: none;
+            }
+            position:absolute;
+            margin-left: 62rem;
+            width: 25%;
+            display: block;
+            
+        }
+        #littleimg{
+            @include tablet{
+                margin-left: 19rem;
+                margin-top: 0;
+                margin-bottom: 38rem;
+            }
+            position: absolute;
+            margin-left: 36rem;
+            margin-top: 18rem;
+        }
+        
+    }
+
+    .paragraph{
+        @include tablet{
+            padding-left: 2rem;
+            padding-top: 1.5rem;
+            padding-bottom: 10px;
+        }
+        padding: 30px;
+        h2{
+            @include tablet{
+                font-size: 25px;
+                padding-bottom: 15px;
+            }
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        p{
+            @include tablet{
+                font-size: 15px;
+            }
+            font-size: 17px;
+            span{
+                color: rgb(97, 182, 119);
+            }
+        }
+
+    }
+
+}

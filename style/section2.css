@@ -1,0 +1,115 @@
+.section2 {
+  height: 60rem;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    padding-top: 4rem;
+  }
+}
+
+.section2-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 14rem;
+  font-size: 2.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section2-title {
+    font-size: 1.8rem;
+  }
+}
+
+.section2-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 20% 30%;
+      grid-template-columns: 30% 20% 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3rem 5rem;
+  padding-top: 2rem;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 6px 6px 26px 6px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 6px 6px 26px 6px rgba(255, 255, 255, 0.4);
+  width: 90%;
+  min-height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .section2-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+.section2 .section2-h1 {
+  padding-bottom: 2rem;
+  font-size: 2.4rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d9a96c));
+  background: linear-gradient(to bottom, #fff 0%, #d9a96c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 .section2-h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+  }
+}
+
+.section2 .section2-p {
+  padding-bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 .section2-p {
+    font-size: 0.9;
+    padding-left: 2.5rem;
+  }
+}
+
+.section2 .section2-left {
+  display: inline-block;
+}
+
+.section2 .section2-right {
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 .section2-center {
+    display: none;
+  }
+}
+/*# sourceMappingURL=section2.css.map */

@@ -1,0 +1,88 @@
+@import"./media-queries.scss";
+
+.section4{
+    @include tablet{
+     background: none; 
+     height: 115rem;
+    }
+    height: 139rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    background:url(./img-8.png) ;
+    background-position: left;
+    background-position-y: -18rem;
+    background-position-x:-3rem ;
+    
+    
+    
+
+
+    .section4-box{
+        @include tablet{
+            width: 65%;
+            height: 200px;
+            background: rgb(46, 152, 195);
+        }
+            padding-left: 2rem;
+            padding-top: 2rem;
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            -webkit-box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            box-shadow: inset 5px 6px 26px 5px rgba(255, 255, 255, 0.4);
+            width: 40%;
+            height: 280px;
+            margin-bottom: 1.2rem;
+            
+            
+            h4{
+                @include tablet{
+                    font-size: 1.5rem;
+                }
+                font-size: 1.8rem;
+
+                span{
+                    @include tablet{
+                       color:black; 
+                    }
+                    color: rgb(255, 0, 117);
+                }
+            }
+            p{
+                @include tablet{
+                    display: none;
+                }
+                font-size: 1.2rem;
+                padding-top: 1.5rem;
+                padding-right: 2.5rem;
+            }
+            .section4-bottom{ 
+                display: flex;
+                flex-direction: row;
+            img{
+                @include tablet{
+                    display: none;
+                }
+                border: 2px solid white;
+                border-radius: 50%;
+                margin-top: 1.6rem;
+            }
+            h1{
+                @include tablet{
+                    display: none;
+                }
+                padding-top: 2.1rem;
+                padding-left:20px ;
+                color: rgb(236, 87, 3);
+            }
+        }
+    }
+
+
+
+}
+

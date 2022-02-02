@@ -1,0 +1,107 @@
+@import"./media-queries.scss";
+
+footer{
+    height: 22rem;
+    color: white;
+
+    .footer{
+        @include tablet{
+            flex-direction: column;
+        }
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    #footer-left{
+        @include tablet{
+            width: 100%;
+            height: 100%;
+        }
+        background: rgb(51, 254, 216);
+        display: block;
+        width: 45%;
+        
+
+        #footer-textleft{
+            @include tablet{
+                margin-bottom: 25px;
+                margin-top: 3rem;
+                margin-left: 5rem;
+            }
+            margin-bottom: 20px;
+            color: #4003ca;
+            font-weight: 700;
+            margin-left: 8rem;
+            margin-top: 4rem;
+            h6{
+                font-size: 24px;
+                line-height: 1.2;
+                padding-bottom: 2rem;
+            }
+            #footer-icons{
+                display: flex;
+                margin-bottom: 20px;
+                img{
+                    @include tablet{
+                        max-width: 10%;
+                    }
+                    max-width: 8%;
+                    display: block;
+                    margin-right: 4rem;
+                }
+            }
+            p{
+                font-size:1.2rem;
+            }
+            #policy{
+                display: flex;
+                margin-top: 10px;
+                a{
+                    text-decoration: none;
+                    margin-right: 20px;
+                    
+                }
+            }
+        }
+    }
+    #footer-right{
+        @include tablet{
+            width: 100%;
+        }
+        background: #4003CA;
+        display: block;
+        width: 55%;
+
+        #footer-textright{
+            @include tablet{
+                margin-top: 3rem;
+                margin-left: 5rem;
+            }
+            color: rgb(51, 254, 216);
+            display: flex;
+            font-weight: 700;
+            margin-left: 8rem;
+            margin-top: 4rem;
+
+            h6{
+                @include tablet{
+                    font-size: 1.5rem;
+                    padding-right: 3rem;
+                }
+                font-size: 1.8rem;
+            }
+        }
+        img{
+            @include tablet{
+                margin-left: 23rem;
+                padding-top: 10px;
+                margin-bottom: 2rem;
+
+            }
+            margin-left: 40rem;
+            padding-top: 20px;
+
+        }
+    }
+}

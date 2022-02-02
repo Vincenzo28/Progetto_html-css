@@ -1,0 +1,304 @@
+#section5 {
+  color: white;
+  height: 65rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 {
+    height: 50rem;
+  }
+}
+
+#section5 .section5-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #33fed8;
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 .section5-title {
+    font-size: 1.1rem;
+  }
+}
+
+#section5 .section5-subtitle {
+  font-size: 1.2rem;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 .section5-subtitle {
+    font-size: 1rem;
+  }
+}
+
+#section5 #circleblu {
+  height: 40%;
+  margin-top: 2rem;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #circleblu {
+    display: none;
+  }
+}
+
+#section5 #table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(241, 241, 241, 0.1);
+  border-radius: 20px;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0px 6.51px 2.51px 0px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0px 6.51px 26px 0px rgba(255, 255, 255, 0.4);
+  width: 90%;
+  height: 45%;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #table {
+    width: 95%;
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #toptr {
+    margin-left: 30px;
+  }
+}
+
+#section5 #toptr #firsttoptr {
+  padding-right: 2px;
+}
+
+#section5 #toptr #secondtoptr {
+  padding-left: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #toptr #secondtoptr {
+    padding-right: 5px;
+  }
+}
+
+#section5 #toptr td {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 37px;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #toptr td {
+    font-size: 20px;
+  }
+}
+
+#section5 #firstleft-tr .lefttext {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #firstleft-tr .lefttext {
+    font-size: 15px;
+    padding-top: 0;
+    padding-right: 2.5rem;
+  }
+}
+
+#section5 #firstleft-tr td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#section5 #secondleft-tr .lefttext {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #secondleft-tr .lefttext {
+    font-size: 15px;
+    padding-top: 0;
+    padding-right: 2.5rem;
+  }
+}
+
+#section5 #secondleft-tr td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#section5 #thirdleft-tr .lefttext {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #thirdleft-tr .lefttext {
+    font-size: 15px;
+    padding-top: 0;
+    padding-right: 2.5rem;
+  }
+}
+
+#section5 #thirdleft-tr td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#section5 #fourthleft-tr .lefttext {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #fourthleft-tr .lefttext {
+    font-size: 15px;
+    padding-top: 0;
+    padding-right: 2.5rem;
+  }
+}
+
+#section5 #fourthleft-tr td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#section5 #fifthleft-tr .lefttext {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #fifthleft-tr .lefttext {
+    font-size: 15px;
+    padding-right: 2.5rem;
+    padding-top: 0;
+  }
+}
+
+#section5 #fifthleft-tr td {
+  font-weight: bold;
+  text-align: center;
+}
+
+#section5 #sixthleft-tr td {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #sixthleft-tr td {
+    font-size: 15px;
+  }
+}
+
+#section5 #sixthleft-tr #corsionlineprice {
+  color: #83cd29;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#section5 #sixthleft-tr #universappprice {
+  color: #33FFD9;
+  padding-bottom: 10px;
+}
+
+#section5 #sixthleft-tr #bootcampprice {
+  color: #ff8400;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#section5 #sixthleft-tr #linktable {
+  padding-left: 2rem;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #sixthleft-tr #linktable {
+    display: none;
+  }
+}
+
+#section5 #sixthleft-tr #linktable a {
+  text-decoration: none;
+}
+
+#section5 #imgtable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40%;
+  margin-top: 18rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section5 #imgtable {
+    display: none;
+  }
+}
+
+#section5 #linktablecolor {
+  color: white;
+  display: flex;
+  font-size: 17px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 16px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4003CA), color-stop(#726bd6), color-stop(#6bc6d6), to(#0321ca));
+  background-image: linear-gradient(to right, #4003CA, #726bd6, #6bc6d6, #0321ca);
+  -webkit-box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+          box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  border: white solid 0.5px;
+}
+
+#section5 #linktablecolor:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+/*# sourceMappingURL=section5.css.map */

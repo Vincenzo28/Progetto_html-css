@@ -1,0 +1,77 @@
+.section3 {
+  padding-top: 6rem;
+  height: 20rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 {
+    padding-top: 152rem;
+  }
+}
+
+.section3 .section3-left {
+  padding-left: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 .section3-left {
+    padding-left: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.section3 .section3-left h1 {
+  font-size: 2.5rem;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ff0075));
+  background: linear-gradient(to bottom, #fff 0%, #ff0075 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section3 .section3-left p {
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+  padding-right: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 .section3-left p {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+  }
+}
+
+.section3 .section3-left p span {
+  color: #ff0075;
+}
+
+.section3 .section3-right {
+  padding-right: 11rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 .section3-right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=section3.css.map */
